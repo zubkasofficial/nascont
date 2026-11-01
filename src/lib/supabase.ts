@@ -1,4 +1,3 @@
-```ts
 import { createClient } from '@supabase/supabase-js';
 
 const supabaseUrl = 'https://mfjqpootzcasngujyedd.supabase.co';
@@ -13,4 +12,4 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
     detectSessionInUrl: true,
   },
 });
-```
+
